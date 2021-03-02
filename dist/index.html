@@ -4,26 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
+    
+    <link rel="stylesheet" href="css/styles.css">
     <title>Product landing page</title>
 </head>
 <body>
     <header id="header">
-        <img id="header-image"src="images/original_trombones.png" alt="logo">
-   
-    <nav id="nav-bar">
+    
+            <img id="header-image" src="images/original_trombones.png" alt="logo">
+        
+       
+   <nav id="nav-bar">
         <ul id="nav-link">
-            <li><a href="http://">Features</a></li>
-            <li><a href="http://">How It Works</a></li>
-            <li><a href="http://">Pricing</a></li>
+            <li><a href="#Features">Features</a></li>
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="#pricing">Pricing</a></li>
         </ul>
     </nav>
 </header>
 <main>
     <div id="introduction">
         <h1 id="heading"> Handcrafted, home-made masterpieces</h1>
-        <form action="">
+        <form action="" id="form">
             <input type="email" name="" id="" placeholder="Enter your email address"><br>
-            <a href="https://www.freecodecamp.com/email-submit"><input type="submit" value="Submit" id="submit"></a>
+            <a href="https://www.freecodecamp.com/email-submit"><input type="submit" value="Get started" id="submit"></a>
         </form>
         
     </div>
@@ -31,7 +36,9 @@
     <section id="Features">
         <div class="container">
             <div class="row">
-                <div class="icons"></div>
+                <div class="icons">
+                    <i class="fas fa-fire"></i>
+                </div>
                 <div class="description">
                     <h2>Premium Materials</h2>
                     <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
@@ -39,35 +46,36 @@
             </div>
             <div class="row">
                 <div class="icons">
-                    
+                    <i class="fas fa-truck"></i>
                 </div>
                 <div class="description">
                     <h2>Fast Shipping</h2>
-                    <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+                    <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if <br> you are  not satisfied.</p>
                 </div>
             </div>
             <div class="row">
-                <div class="icons"></div>
+                <div class="icons">
+                    <i class="fas fa-battery-full"></i>
+                </div>
                 <div class="description">
                     <h2>Quality Assurance</h2>
-                    <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.Quality Assurance</p>
+                    <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of <br> your instrument.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <section id="how-it-works">
-        <iframe width="620" height="315"
-src="https://www.youtube.com/embed/y8Yv4pnO7qc">
+        <iframe  id="video" width="620" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc">
 </iframe>
     </section>
 
     <section id="pricing">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <div class="product">TENOR TROMBONE</div>
-                    <h2>$600</h2>
+        
+            <div class="pricing-row">
+                <div class="pricing-col">
+                    <div class="product"> <h2>TENOR TROMBONE</h2></div>
+                    <h3>$600</h3>
                     <ul>
                         <li>Cup-shaped mouthpiece</li>
                         <li>Length approx. 269 cm,</li>
@@ -77,9 +85,9 @@ src="https://www.youtube.com/embed/y8Yv4pnO7qc">
                     </ul>
                     <button>SELECT</button>
                 </div>
-                <div class="col">
-                    <div class="product">BASS TROMBONE</div>
-                    <h2>$900</h2>
+                <div class="pricing-col">
+                    <div class="product"> <h2>BASS TROMBONE</h2></div>
+                    <h3>$900</h3>
                     <ul>
                         <li>Aerophone, brass wind instrument</li>
                         <li>Larger Cup-shaped mouthpiece</li>
@@ -89,9 +97,9 @@ src="https://www.youtube.com/embed/y8Yv4pnO7qc">
                     </ul>
                     <button>SELECT</button>
                 </div>
-                <div class="col">
-                    <div class="product">VALVE TROMBONE</div>
-                    <h2>$1200</h2>
+                <div class="pricing-col">
+                    <div class="product"> <h2>VALVE TROMBONE</h2></div>
+                    <h3>$1200</h3>
                     <ul>
                         <li>8-inch yellow brass bellt</li>
                         <li>Stainless Steel Pistons </li>
@@ -102,22 +110,23 @@ src="https://www.youtube.com/embed/y8Yv4pnO7qc">
                     <button>SELECT</button>
                 </div>
             </div>
-        </div>
+        
     </section>
     
    
 
 </main>
 <footer>
-    <div>
+    <div id="footer">
         <ul>
             <li>Privacy</li>
             <li>Terms</li>
             <li>Contact</li>
         </ul>
-        <p>Copyright 2021, Original Trombones</p>
+        <p id="copyright">Copyright 2021, Original Trombones</p>
     </div>
 </footer>
+
 </body>
 </html>
 
