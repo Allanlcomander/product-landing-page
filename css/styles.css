@@ -45,8 +45,14 @@ body{
 
 #heading{
     font-size: 1.5rem;
+    
 }
 
+#Features{
+    height: 500px;
+    padding-top: 90px;
+
+}
 #form input{
     text-align: left;
     padding: 5px 100px 5px 4px;
@@ -111,7 +117,7 @@ i{
 #how-it-works{
     display: flex;
     justify-content: center;
-    padding: 50px;
+    padding-top: 90px;
     height: 500px;
 }
 .pricing-row{
@@ -142,6 +148,7 @@ i{
     list-style: none;
     padding: 20px;
     line-height: 1.5rem;
+    font-size: 0.8rem;
 }
 
 button{
@@ -151,6 +158,10 @@ button{
     border: none;
     
     
+}
+
+button:hover{
+    cursor: pointer;
 }
 
 
