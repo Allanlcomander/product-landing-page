@@ -250,7 +250,8 @@ footer li:hover{
     }
     
     .pricing-col ul li{
-        font-size: 1.5rem;
+        font-size: 1rem;
+        line-height:3rem;
     }
 
     #copyright{
